@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefcf7;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: #fefcf7;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2c2c2c;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  background-color: #f4dfc8;
+  position: relative;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #0e7c7b;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.stamp {
+  position: absolute;
+  top: 2rem;
+  left: 40%;
+  transform: translateX(-50%);
+}
+
+.stamp img {
+  width: 80px;
+  height: auto;
+}
